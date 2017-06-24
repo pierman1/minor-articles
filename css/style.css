@@ -24,15 +24,15 @@ main {
   width: 90%;
   max-width: 800px;
   margin: 8rem auto;
-
 }
 
 nav > ul {
   list-style: none;
+  padding: 0;
 }
 
 nav > ul > li {
-  padding: .2rem 1.5rem;
+  padding: .2rem 0;
 }
 
 a {
