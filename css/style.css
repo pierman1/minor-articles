@@ -1,0 +1,130 @@
+body {
+  font-family: 'Open Sans';
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Merriweather';
+}
+
+header {
+  background-color: #1C4A51;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+}
+
+nav,
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 8rem auto;
+
+}
+
+nav > ul {
+  list-style: none;
+  padding: 0 1rem;
+}
+
+nav > ul > li {
+  padding: .2rem 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 900;
+  color: #000;
+  transition: 300ms;
+}
+
+a:hover {
+  color: #1C4A51;
+}
+
+legend {
+  font-family: 'Merriweather';
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+#logo {
+  width: 50px;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #1C4A51;
+  color: #fff;
+  margin: 0;
+  padding: 1rem;
+  text-align: right;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+article {
+  border-top: 3px solid gray;
+}
+
+article > h1 {
+  font-size: 2rem;
+}
+
+#menu-toggle {
+  color: white;
+  font-weight: 800;
+  position: absolute;
+  right: 2rem;
+  top: 1.5rem;
+  z-index: 10;
+}
+
+.navigation-secondary{
+  position: fixed;
+  width: 80%;
+  max-width: 500px;
+  top: 0;
+  padding: 4rem 2rem;
+  background-color: #1C4A51;
+  z-index: 1;
+  transition: 300ms;
+  right: -100%;
+  color: #fff;
+  border-top: 20px solid darkgray;
+}
+
+.navigation-secondary > a {
+  color: #fff;
+}
+
+.open {
+  right: 0px !important;
+}
