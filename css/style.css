@@ -111,14 +111,15 @@ article > h1 {
   position: fixed;
   width: 80%;
   max-width: 500px;
-  top: 0;
-  padding: 4rem 2rem;
+  top: -60px;
+  padding: 2rem;
   background-color: #1C4A51;
   z-index: 1;
   transition: 300ms;
   right: -100%;
   color: #fff;
   border-top: 20px solid darkgray;
+  font-size: .8rem;
 }
 
 .navigation-secondary > a {
