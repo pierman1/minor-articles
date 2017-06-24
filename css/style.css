@@ -29,7 +29,6 @@ main {
 
 nav > ul {
   list-style: none;
-  padding: 0 1rem;
 }
 
 nav > ul > li {
@@ -92,6 +91,7 @@ blockquote p {
 
 article {
   border-top: 3px solid gray;
+  padding: 4rem 0 0;
 }
 
 article > h1 {
